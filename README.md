@@ -24,7 +24,7 @@
 - 主要的配置信息都集成到了 config.toml，一键完成各种自定义的配置。
 - 导航的各个信息都集成在 data/webstack.yml 文件中，方便后续增删改动。
 ```
-- taxonomy: 科研办公
+- taxonomy: 科研办
   icon: fas fa-flask fa-lg
   list:
     - term: 云服务器
