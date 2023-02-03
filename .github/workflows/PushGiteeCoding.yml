@@ -29,7 +29,7 @@ jobs:
           git remote add coding "${remote_repo}"
           git show-ref # useful for debugging
           git branch --verbose
-          publish all
+         # publish all
           git push --all --force coding
           git push --tags --force coding
         env:
