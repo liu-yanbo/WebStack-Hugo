@@ -25,6 +25,7 @@ jobs:
       - name: Push to Coding
         run: |
           #echo "stop!"
+          #https://e.coding.net/liu-yanbo/wodedaohangye/WebStack-Hugo.git
           remote_repo="https://${CODING_USERNAME}:${CODING_PASSWORD}@e.coding.net/${CODING_REPOSITORY}.git"
           git remote add coding "${remote_repo}"
           git show-ref # useful for debugging
